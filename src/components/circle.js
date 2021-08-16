@@ -1,6 +1,16 @@
-// import using require
+import React from "react";
+import ReactDOM from "react-dom";
+import shape from "./shape";
 
-// declare class
+class circle extends Shape{
+    constructor(color) {
+        super(color); 
+    }
+    calculateArea() {
+        document.write("The color of the shape is " + this.color + "</br>");
+    }
+}
+var c1 = new Circle("Blue");
+c1.calculateArea();
 
-
-// export class using module.exports
+module.exports = circle;
