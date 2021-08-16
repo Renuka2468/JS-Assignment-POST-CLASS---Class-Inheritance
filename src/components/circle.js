@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import shape from "./shape";
 
-class circle extends Shape{
+class Circle extends Shape{
     constructor(color) {
         super(color); 
     }
@@ -13,4 +13,4 @@ class circle extends Shape{
 var c1 = new Circle("Blue");
 c1.calculateArea();
 
-module.exports = circle;
+module.exports = Circle;
