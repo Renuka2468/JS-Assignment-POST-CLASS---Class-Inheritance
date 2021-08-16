@@ -9,5 +9,5 @@ class Shape{
         document.write("The color of the shape is " + this.color + "</br>");
     }
 }
-
-export default Shape;
+const instance = new Shape("red");
+export default instance;

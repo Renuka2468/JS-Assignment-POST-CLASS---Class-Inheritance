@@ -1,6 +1,4 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import shape from "./shape";
+import Shape from "./Shape";
 
 class Circle extends Shape{
     constructor(color) {
