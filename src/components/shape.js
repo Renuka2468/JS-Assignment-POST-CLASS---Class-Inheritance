@@ -1,4 +1,4 @@
-class shape{
+class Shape{
     constructor() {
         this.color = "red";
     }
@@ -9,4 +9,4 @@ class shape{
         return("Area is calculated");
     }
 }
-module.exports = shape;
+module.exports = Shape;

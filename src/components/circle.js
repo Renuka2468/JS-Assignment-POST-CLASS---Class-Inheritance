@@ -1,6 +1,6 @@
-var shape = require("./shape.js");
+var Shape = require("./shape.js");
 
-class circle extends shape{
+class Circle extends Shape{
     constructor() {
         super();
         this.radius = 9;
@@ -9,4 +9,4 @@ class circle extends shape{
         return("Calculated area of circle");
     }
 }
-module.export = circle;
+module.export = Circle;
