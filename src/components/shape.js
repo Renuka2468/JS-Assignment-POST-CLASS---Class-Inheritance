@@ -1,13 +1,12 @@
-class Shape{
-    constructor(color) {
-        this.color = color;
+class shape{
+    constructor() {
+        this.color = "red";
     }
     drawShape() {
-        document.write("The color of the shape is " + this.color + "</br>");
+        return("A shape is drawn");
     }
     calculateArea(){
-        document.write("The color of the shape is " + this.color + "</br>");
+        return("Area is calculated");
     }
 }
-const instance = new Shape("red");
-export default {Shape};
+module.exports = shape;

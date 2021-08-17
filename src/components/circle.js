@@ -1,14 +1,12 @@
-import {Shape} from "./Shape";
+var shape = require("./shape.js");
 
-class Circle extends Shape{
-    constructor(color) {
-        super(color); 
+class circle extends shape{
+    constructor() {
+        super();
+        this.radius = 9;
     }
     calculateArea() {
-        document.write("The color of the shape is " + this.color + "</br>");
+        return("Calculated area of circle");
     }
 }
-var c1 = new Circle("Blue");
-c1.calculateArea();
-
-module.export = Circle;
+module.export = circle;
