@@ -10,4 +10,4 @@ class Shape{
     }
 }
 const instance = new Shape("red");
-export default instance;
+export default {Shape};

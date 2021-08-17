@@ -1,4 +1,4 @@
-import Shape from "./Shape";
+import {Shape} from "./Shape";
 
 class Circle extends Shape{
     constructor(color) {
@@ -11,4 +11,4 @@ class Circle extends Shape{
 var c1 = new Circle("Blue");
 c1.calculateArea();
 
-module.exports = Circle;
+module.export = Circle;
