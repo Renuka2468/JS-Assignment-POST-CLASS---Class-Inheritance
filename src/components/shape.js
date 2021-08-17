@@ -1,12 +1,6 @@
-class Shape{
-    constructor() {
-        this.color = "red";
-    }
-    drawShape() {
-        return "A shape is drawn";
-    }
-    calculateArea(){
-        return "Area is calculated";
-    }
+class Shape {
+    constructor() { this.color = 'blue'; }
+    drawShape() { return "A shape is drawn"; }
+    calculateArea() { return "Area is calulated. "; }
 }
 module.exports = Shape;
