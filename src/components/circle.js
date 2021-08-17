@@ -6,7 +6,7 @@ class Circle extends Shape{
         this.radius = 9;
     }
     calculateArea() {
-        return("Calculated area of circle");
+        return "Calculated area of circle";
     }
 }
 module.export = Circle;

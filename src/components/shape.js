@@ -3,10 +3,10 @@ class Shape{
         this.color = "red";
     }
     drawShape() {
-        return("A shape is drawn");
+        return "A shape is drawn";
     }
     calculateArea(){
-        return("Area is calculated");
+        return "Area is calculated";
     }
 }
 module.exports = Shape;
